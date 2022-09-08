@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-   puts("\"Programming is like building a multilingual puzzle\n");		 
-   getchar();
-   return (0);
+	/*a C programme that uses puts function to print an output*/
+	char Mystr[] = "\"Programming is like building a multilingual puzzle";
+	puts(Mystr);
+	return (0);
 }
