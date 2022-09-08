@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/* main function*/
-
+/**
+ * main - Prints out storage of the below datatypes.
+ * Return: 0 if success.
+ */
 int main(void)
 {
 	/*varables delaration*/

@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* main function*/
+/**
+ * main - Prints out an output with printf.
+ * Return: 0 if success.
+ */
 int main(void)
 {
 	/*printf function*/
