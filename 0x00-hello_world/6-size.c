@@ -9,8 +9,8 @@ int main(void)
 	int intType;
 	float floatType;
 	char charType;
-	long int longIntType
-	long long int longLongIntType
+	long int longIntType;
+	long long int longLongIntType;
 
 	/*sizeof evaluates the size of a variable*/
 
