@@ -7,21 +7,19 @@
 
 int main(void)
 {
-	int hexa  = '0';
+	int i  = '0';
 
-	while (hexa <= '9')
+	while (i <= '9')
 	{
-		putchar(hexa);
-		hexa++;
+		putchar(i);
+		if (i != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		i++;
 	}
 
-	hexa = 'a';
-
-	while (hexa <= 'f')
-	{
-		putchar(hexa);
-		hexa++;
-	}
 	putchar('\n');
 	return (0);
 }
