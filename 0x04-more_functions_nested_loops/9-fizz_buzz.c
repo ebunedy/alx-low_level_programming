@@ -6,7 +6,7 @@
  * @n: the number to test.
  **/
 
-int main(int n)
+int main(void)
 {
 	int i;
 
