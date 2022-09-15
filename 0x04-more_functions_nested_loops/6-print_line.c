@@ -1,18 +1,21 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *print_line - print a line base on the value n
- * @n: value to enter
- * Return: 0 on success
-*/
-void print_line(int n)
+ * print_line - draws a straight line (n) characters long.
+ * @n: the number of underscores to print.
+ **/
+
+void print_line (int n);
 {
 	int i;
 
-	if (i > n)
+	if (n > 0)
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
+		{
 			_putchar('_');
+		}
 	}
 	_putchar('\n');
 }
